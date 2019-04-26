@@ -1,4 +1,15 @@
+
+.character-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .character-names {
     color: blue;
     font-size: 2rem;
+    background: silver;
+    margin: 10px;
+    width: 400px;
+    border-radius: 5px;
 }
