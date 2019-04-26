@@ -6,6 +6,4 @@ body {
   background-image: url('./sw-bg.jpg');
   background-size: cover;
   background-attachment: fixed;
-  display: flex;
-  justify-content: center;
 }
