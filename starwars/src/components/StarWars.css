@@ -1,5 +1,5 @@
 .character-container {
-    background: white;  
+    background: rgb(218, 112, 27);
     display: flex; 
     flex-direction: row;
     align-items: center;
