@@ -1,16 +1,49 @@
 .App {
   text-align: center;
-  max-width: 1000px;
-  display: flex;
-  flex-direction: column;
-  opacity: 0.8;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
-  background: silver;
-  padding: 10px;
-  border-radius: 5px;
+  font-family: 'Luckiest Guy', cursive;
   font-size: 5rem;
+  letter-spacing: 4px;
 }
 /* write your parent styles in here for your App.js */
+
+.main-content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-container {
+  width: 1000px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.character-card {
+  list-style-type: none;
+  background: white;
+  opacity: 0.8;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  height: 250px;
+  width: 200px;
+  transition: .2s linear;
+}
+
+.character-card:hover {
+  box-shadow: 0 0 10px black;
+  transform: scale(1.1);
+}
+
+.character-card li {
+ border: 1px solid silver;
+ display: flex;
+ justify-content: space-between;
+ padding: 5px;
+}
