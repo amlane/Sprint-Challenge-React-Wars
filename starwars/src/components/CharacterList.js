@@ -12,6 +12,7 @@ function CharacterList(props){
                 )
         })}
         </ul>
+        
     )
 }
 
