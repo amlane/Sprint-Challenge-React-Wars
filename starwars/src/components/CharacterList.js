@@ -1,12 +1,13 @@
 import React from "react";
-import "./StarWars.css"
+import Character from "./Character"
 
 function CharacterList(props){
     return (
-        <div>
+        <div className="character-list">
         {props.starwarsChars.map((char) => {
           return (
-            <div className="character-names">{char.name}</div>
+            <Character 
+            char={char} />
             )
         })}
         </div>
