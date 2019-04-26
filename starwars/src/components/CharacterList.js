@@ -3,16 +3,15 @@ import Character from './Character';
 
 function CharacterList(props){
     return (
-        <div className="character-list">
+        <ul key={props.id} className="character-container">
             {props.starwarsChars.map((char) => {
             return (
                 <Character 
                 char={char}
-                id={props.id}
                  />
                 )
         })}
-        </div>
+        </ul>
     )
 }
 

@@ -7,7 +7,6 @@ function Character(props) {
             <ul className="character-names">{props.char.name}
                 <CharacterDetails 
                     char={props.char}
-                    id={props.id}
                 />
             </ul>
         </div>
