@@ -26,11 +26,16 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a Javascript library that allows developers to more easily produce UI elements and keep up with the demand of building large scale applications. React makes building functional and class components easier.
+
 - [ ] What does it mean to _think_ in react?
+To think in React is very similar to the way you think of structuring HTML but instead of creating a structure for content, you're creating components for each piece within itself of the application, breaking it into smaller pieces. 
 
 - [ ] Describe state.
+State is like the heart of your app. This is the piece where you reach to when you want to grab data from where ever you're pulling your data from. Data is like the blood of your app and will flow through state and into your components, based on how you construct your application to pass your data.
 
 - [ ] Describe props.
+Props are like the arguments/parameters for your component. You're essentially assigning a variable name to the state or event handler you need to pass through to your next component. Props can be drilled as deep as our computer memory will allow. When using class components you will need to remember to use `this.props` when replacing `this.state` or `this`. With functional components you only need to use `props` in place of `this.state` or `this`.
 
 ## Project Set Up
 
