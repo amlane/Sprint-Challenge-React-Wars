@@ -7,7 +7,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      starwarsChars: []
+      starwarsChars: [],
+      id: Date.now()
     };
   }
 
@@ -38,6 +39,7 @@ class App extends Component {
 
             <CharacterList
               starwarsChars={this.state.starwarsChars}
+              id={this.state.id}
             />
 
       </div>

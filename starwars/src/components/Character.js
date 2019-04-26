@@ -1,9 +1,15 @@
 import React from 'react';
+import CharacterDetails from './CharacterDetails';
 
 function Character(props) {
     return (
-        <div>
-            <div className="character-names">{props.char.name} was born {props.char.birth_year}</div>
+        <div className="character-card">
+            <ul className="character-names">{props.char.name}
+                <CharacterDetails 
+                    char={props.char}
+                    id={props.id}
+                />
+            </ul>
         </div>
     )
 }

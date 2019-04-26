@@ -7,7 +7,9 @@ function CharacterList(props){
             {props.starwarsChars.map((char) => {
             return (
                 <Character 
-                char={char} />
+                char={char}
+                id={props.id}
+                 />
                 )
         })}
         </div>
