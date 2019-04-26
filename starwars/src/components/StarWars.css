@@ -1,0 +1,39 @@
+.character-container {
+    background: white;  
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 900px;
+    border-radius: 5px;
+}
+
+.character-card {
+    color: blue;
+    font-size: 2rem;
+    background: silver;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: .2s linear;
+    height: 350px;
+    width: 350px;
+}
+
+.character-info {
+    padding: 10px;
+}
+
+.character-info:hover {
+    background: rgb(218, 112, 27);
+    color: silver;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 90%;
+}
+
+.character-details  {
+    list-style-type: none;
+    color: white;
+    font-size: 1.4rem;
+}
