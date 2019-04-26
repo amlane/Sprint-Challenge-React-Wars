@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import CharacterCard from './components/CharacterCard';
 
+
+
 import './App.css';
 import './components/StarWars.css';
 
